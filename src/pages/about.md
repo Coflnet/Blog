@@ -1,6 +1,7 @@
 ---
 title: "About"
 description: "Review feature info and customization details."
+date: 2018-05-01
 ---
 
 ## Intro to Jumpstart
