@@ -5,7 +5,7 @@ COPY package*.json ./
 RUN PUPPETEER_SKIP_DOWNLOAD=1 npm install
 
 COPY . ./
-RUN npm run build:eleventy
+RUN npm run build-ci
 
 FROM nginx:1.21.0-alpine
 
