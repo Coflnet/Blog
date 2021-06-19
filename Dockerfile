@@ -2,7 +2,7 @@ FROM node:16-alpine3.11 as build
 
 WORKDIR /app
 COPY package*.json ./
-RUN npm install --save-dev
+RUN PUPPETEER_SKIP_DOWNLOAD=1 npm install
 
 COPY . ./
 RUN npm run build:eleventy
