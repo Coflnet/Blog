@@ -29,7 +29,7 @@ Wich is way easier to both pronounce and write.
 ## The Hypixel Network is down
 > We made sure any time-based services on the network are taken care of. This means pausing boosters, pausing the SkyBlock Auction House and Bazaar timers, pausing timers on MVP++ and daily rewards, etc.
 
-While writing this hypixel conducts maintinance to its servers. Since our [premium plan](https://sky.coflnet.com/premium) isn't of much use when there are no new auctions, we are extending the subscriptions of our premium users for as long as this maintinance will last/lasted.
+While writing this hypixel conducts maintenance to its servers. Since our [premium plan](https://sky.coflnet.com/premium) isn't of much use when there are no new auctions, we are extending the subscriptions of our premium users for as long as this maintenance will last/lasted.
 
 ## Feature of the day
 Drummroll please:  
