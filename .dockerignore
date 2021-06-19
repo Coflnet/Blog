@@ -1,0 +1,8 @@
+node_modules
+.gitignore
+.editorconfig
+.git
+.prettiercc.yaml
+.stylelintignore
+.stylelintrc.yaml
+.env-sample
