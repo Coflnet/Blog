@@ -8,17 +8,20 @@ date: 2021-06-22
 Filters allow you to find a reference price for some item you have, or are being offered.
 
 ## What changed
+### Clearer options
 You could filter auctions by enchantments and reforges before.
-It worked great, at first, but got slower over time as the filter tried to get through more and more auctions.
-Furthermore all items displayed the filter option, not just those which can be enchanted/reforged.
+But all items displayed the filter option, not just those which can be enchanted/reforged.
 The new filter is more optimized and (mostly) only display on the items it actually makes sense.
+Its also much easier for us to add new filters for other item attributes such as the `uId`.
+We will add more filters soon.
+
+### Faster filtering
+It worked great, at first, but got slower over time as the filter tried to get through more and more auctions.
 Still if you filter for longer time periods the answer will take longer.
 It could take multiple miniutes to search through the whole history of enchanted books. 
 To prevent you from waiting for long periods of time filtering on `All Time` got disabled.
-We are held back by increasing server costs to store these over 210 million auctions.
+We are held back by increasing server costs to store all these 210+ million auctions.
 So please consider purchasing a [premium plan](https://sky.coflnet.com/premium) to help us.
-Its also much easier for us to add new filters for other item attributes such as the `uId`.
-We will add more filters soon.
 
 ### How do I add a filter
 1. You click on `(+) Add Filter`.
