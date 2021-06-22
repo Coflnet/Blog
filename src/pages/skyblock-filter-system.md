@@ -18,7 +18,7 @@ We will add more filters soon.
 ### Faster filtering
 It worked great, at first, but got slower over time as the filter tried to get through more and more auctions.
 Still if you filter for longer time periods the answer will take longer.
-It could take multiple miniutes to search through the whole history of enchanted books. 
+It could take multiple minutes to search through the whole history of enchanted books. 
 To prevent you from waiting for long periods of time filtering on `All Time` got disabled.
 We are held back by increasing server costs to store all these 210+ million auctions.
 So please consider purchasing a [premium plan](https://sky.coflnet.com/premium) to help us.
@@ -53,7 +53,7 @@ The `uId` (short for unique identifier) is a special attribute of most non stack
 Its part of the so called `NBT data`. 
 
 ### What is it useful for?
-The `uId` useful for tracing an item back/forward from seller to (re-)seller. 
+The `uId` is useful for tracing an item back/forward from seller to (re-)seller. 
 It can revel who applied what onto an item.
 Or if you got scammed find where your stuff ended up. 
 ### Cool, How do I find it?
@@ -67,8 +67,8 @@ If the item has an `uId` you will find it there. But not all auctions have one.
 ### Technical stuff
 It is derived from the `uuId` (universal unique identifier) and represents the last 12 characters of it.
 A normal `uuId` has 32 chars but since we store so many items we decided to save on storage cost.
-Twelfe characters are enough to clearly identify an item. 
+Twelve characters are enough to clearly identify an item. 
 
 ## The Hypixel Network back up again
 Hypixel is in the process of opening back up again. 
-All our [premium plan](https://sky.coflnet.com/premium) users got an extra 5 days added to their initial plan.
+All our [premium plan](https://sky.coflnet.com/premium) users got an extra 7 days added to their initial plan.
