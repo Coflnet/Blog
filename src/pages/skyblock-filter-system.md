@@ -24,12 +24,13 @@ We are held back by increasing server costs to store all these 210+ million auct
 So please consider purchasing a [premium plan](https://sky.coflnet.com/premium) to help us.
 
 ### How do I add a filter
-1. You click on `(+) Add Filter`.
-2. You select a filter from the dropdown.
-3. You modify the filter value
-4. You hit `Apply`
-5. You look at the new graph 
-6. You click on a recent auction and verify that the filter was correct
+0. Open an item page like [aote](https://sky.coflnet.com/item/ASPECT_OF_THE_END)
+1. click on `(+) Add Filter`.
+2. select a filter from the dropdown.
+3. modify the filter value
+4. hit `Apply`
+5. look at the new graph 
+6. click on a recent auction and verify that the filter was correct
 
 This, as the rest of the site, is still work in progress. 
 If you find an incorrect filter result please copy the `URL` and [send it to us](https://sky.coflnet.com/feedback)
