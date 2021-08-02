@@ -2,10 +2,13 @@
   <div class="tdbc-sitenav__container">
     <a id="tdbc-siteid" href="/">{{ meta.siteName }}</a>
     <ul class="tdbc-sitenav__navlist tdbc-list-unstyled">
-      {%- for page in collections.pages -%}
-      <li>
-        <a href="{{ page.url }}">{{ page.data.title }}</a>
-      </li>
+      {%- for page in collections.pages | reverse -%}
+        {% if loop.index0 < 2 %}
+          <li>
+            <a href="{{ page.url }}">{{ page.data.title }}</a>
+          </li>
+        {% endif %}
+
       {%- endfor -%}
     </ul>
   </div>
