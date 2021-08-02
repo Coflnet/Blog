@@ -32,10 +32,10 @@ Effectively:
 
 
 ## What happens when
-### competitors copies and uses our code
+### Competitor copies and uses our code
 What about that? That basically proves our system is better than his. Which is a fantastic argument when getting new customers.  
 
-### he sells the code 
+### He sells the code 
 Nothing wrong with that either, as long as he tells the buyer that it is licenced under the `AGPL-3`.
 That will also require him to mention that we wrote it.  
 
@@ -52,12 +52,3 @@ The only catch being that when we help you to reach success we want to have a cu
 If it doesn't work out, sad, but whatever.
 Please note that this is just a general offer to partner, we might not have time to help you to the extend you hope for.
 We are not teaching you how to code 101. We want to **help you build something amazing**. 
-
-## Colaborating with us
-We agreed on sharing our revenue as a 50/50 cut between the company and all contributors of at least one active feature.
-Active in that case meaning that is still in the source code when revenue is generated.
-Because `feature` is a vague term here are some guidelines. A feature is:
-* something you would put into a class
-
-To reduce bugs, 5% of the company split is reserved for bug bounty. 
-If there are no bugs reported for 12 months the bounty for the first 3 months is treated as normal revenue for collaborators
