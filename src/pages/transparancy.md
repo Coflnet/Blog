@@ -1,7 +1,7 @@
 ---
 title: "Commiting to transparancy"
 description: 'We pledge to be as transparent and open as possible'
-date: 2021-07-14
+date: 2021-08-02
 ---
 
 Some mission statements that we will refer to going forward. 
