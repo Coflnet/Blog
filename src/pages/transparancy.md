@@ -32,7 +32,7 @@ Effectively:
 
 
 ## What happens when
-### competitor copies and uses our code
+### competitors copies and uses our code
 What about that? That basically proves our system is better than his. Which is a fantastic argument when getting new customers.  
 
 ### he sells the code 
