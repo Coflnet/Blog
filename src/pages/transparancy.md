@@ -8,7 +8,7 @@ Some mission statements that we will refer to going forward.
 
 ## Working in the open
 We intend to be 100% transparent.   
-This is actually really easy when using github to colaborate. In fact this [blog](https://github.com/Coflnet/Blog) is a repository on github as well. 
+This is actually really easy when using github to collaborate. In fact this [blog](https://github.com/Coflnet/Blog) is a repository on github as well. 
 You can check the history of this post or any other and fix typos if you find any.
 Some considerations we made are
 ### Pros:
@@ -25,8 +25,8 @@ The ultimate target is to produce good code. And unlike with cookie many coders 
 
 
 ## Code in the open
-Pretty much all our code is or will be published under the `AGPL-3` licence. 
-This means it is free to use, copy, modify and redistribute in any form, as long as you also publish any modifications you made (with the same licence).  
+Pretty much all our code is or will be published under the `AGPL-3` license. 
+This means it is free to use, copy, modify and redistribute in any form, as long as you also publish any modifications you made (with the same license).  
 Effectively:
 > you can take our code if you also allow us to take yours. Win-Win.
 
@@ -36,14 +36,14 @@ Effectively:
 What about that? That basically proves our system is better than his. Which is a fantastic argument when getting new customers.  
 
 ### He sells the code 
-Nothing wrong with that either, as long as he tells the buyer that it is licenced under the `AGPL-3`.
+Nothing wrong with that either, as long as he tells the buyer that it is licensed under the `AGPL-3`.
 That will also require him to mention that we wrote it.  
 
 ### We get bought
-Not a lot changes either. The licencensing of the existing code is still `AGPL-3`.
-With audacity recently being bought up and a questionable licencing agreement being made we put some consideration into this.
+Not a lot changes either. The licensing of the existing code is still `AGPL-3`.
+With audacity recently being bought up and a questionable licensing agreement being made we put some consideration into this.
 We belive in retaining ownership and partnering with others to accomplish something else is the better way to go.
-Both parties are motivated to accomplish a common goal and not to screw each other over in a licencing agreement.
+Both parties are motivated to accomplish a common goal and not to screw each other over in a licensing agreement.
 
 ## Speaking of partnering
 If you are or want to develop something but lack the expertise to publish it feel free to contact us.
