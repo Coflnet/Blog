@@ -48,4 +48,3 @@ Use this as the "Publish command" if needed by hosting such as Netlify.
 You can [file it as an issue](https://github.com/5t3ph/11ty-netlify-jumpstart/issues).
 
 [![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/default-violet.png)](https://www.buymeacoffee.com/moderncss)
-
