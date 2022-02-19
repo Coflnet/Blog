@@ -13,7 +13,7 @@ The type specifies what kind of input the user is expected to make. A number fil
 Options specify either the possible select options or the upper and lower bound of a number input.
 
 Each filter takes in an auction and outputs wherever or not it matches that auction given its filter`value`.
-The first filter system version used to do this with the Where extention method on `IQueryable`.
+The first filter system version used to do this with the Where extension method on `IQueryable`.
 An `IQueryable` is esentially an abstraction for any datasource such as a Database but can also be created from an array.
 The possibility to create it from an array was used to check if a single auction was matched by a filter.
 ```c#
@@ -24,10 +24,10 @@ However, as I later noticed, the abstraction caused a slowdown which was only no
 (Also the fact that some users made hughe filter lists of 300+ items instead of the anticipated 10 didn't help)
 
 ## Time to optimize 
-After recognizing the problem I first tried to optimize the IQueryable which proofed to pretty complicated 
+After recognizing the problem I first tried to optimize the IQueryable which proofed to be pretty complicated, 
 as [this Blog Post](https://blog.ploeh.dk/2012/03/26/IQueryableTisTightCoupling/) seems to have already figured out 10 years ago.
 
-Then I found that the `.Where` extention method from `Linq` isn't the same for `IQueryable` and `IEnumerable`.
+Then I found that the `.Where` extension method from `Linq` isn't the same for `IQueryable` and `IEnumerable`.
 And in fact queries against an `IEnumerable` are much faster than the original ones.  
 So just switch everything to `IEnumerable` right?  
 Well not so fast. You could do that but would loose the benefit of an `IQueryable` which is that the query is executed in the Database and not in the code.
@@ -38,7 +38,7 @@ Instead I implemented both versions one Method taking and returning `IEnumerable
 But now I had dupplicated a lot of code. 
 I absolutely hate dupplicate code as it is guranteed that one version will differ from the other at some point.
 
-There had to be a way to `express` the filter in a way that both `.Where` extentions understand.  
+There had to be a way to `express` the filter in a way that both `.Where` extensions understand.  
 And in fact there is. After analysing the parameters of the `.Where` methods I found they both accept `Expression`s.
 An `Expression` in most cases is a so called `Lamda` which is a fancy term for a Method without a name.
 An example! Here is the content of the `Bin` filter (simplified a bit)
