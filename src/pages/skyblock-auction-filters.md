@@ -1,7 +1,7 @@
 ---
 title: "Optimizing Auction filters"
 description: 'The filter system is what allows our users to quickly find what they are looking for.'
-date: 2021-08-06
+date: 2022-02-20
 ---
 
 Each filter collection is made up of `name` `value` pairs representing different filters (or just one).
