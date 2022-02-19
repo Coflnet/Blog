@@ -16,7 +16,7 @@ Each filter takes in an auction and outputs if it matches that auction given its
 The first filter system version used to do this with the `.Where` extension method on `IQueryable`.
 An `IQueryable` is esentially an abstraction for any datasource such as a Database but can also be created from an array.
 The possibility to create it from an array was used to check if a single auction was matched by a filter.
-```c#
+```csharp
 FilterEngine.AddFilters(new SaveAuction[] { auction }.AsQueryable(), Filters).Any();
 ```
 With the abstraction of `IQueryable` the code was relatively straight forward and easy to understand.
@@ -42,7 +42,7 @@ There had to be a way to `express` the filter in a way that both `.Where` extens
 And in fact there is. After analysing the parameters of the `.Where` methods I found they both accept `Expression`'s.
 An `Expression` in most cases is a so called `Lamda` which is a fancy term for a Method without a name.
 An example! Here is the content of the `Bin` filter (simplified a bit)
-```c#
+```csharp
 public override Expression<Func<Auction, bool>> GetExpression(FilterArgs args)
 {
     if (args.Get(this) == "true")
