@@ -35,8 +35,8 @@ Ie. Every item history search on [sky.coflnet.com](https://sky.coflnet.com) woul
 As you might can tell this isn't feasible and would not return any results before the HTTP timeout.  
 Instead I implemented both versions one Method taking and returning `IEnumerable` and one taking and returning `IQueryable`.
 
-But now I had dupplicated a lot of code. 
-I absolutely hate dupplicate code as it is guranteed that one version will differ from the other at some point.
+But now I had duplicated a lot of code. 
+I absolutely hate duplicate code as it is guranteed that one version will differ from the other at some point.
 
 There had to be a way to `express` the filter in a way that both `.Where` extensions understand.  
 And in fact there is. After analysing the parameters of the `.Where` methods I found they both accept `Expression`s.
