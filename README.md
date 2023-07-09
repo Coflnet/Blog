@@ -49,3 +49,4 @@ For those that have use this starter before, you should know the following chang
 - removal of social media images - due to issues with packages for creating the images
 - removal of stylelint
 - update to use [@11tyrocks/eleventy-plugin-sass-lightningcss](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-sass-lightningcss) for Sass processing
+
