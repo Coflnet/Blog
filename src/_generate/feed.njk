@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 	{% set absoluteUrl %}{{ '/feed/' | url | absoluteUrl(meta.url) }}{% endset %}
 	<link href="{{ absoluteUrl }}" rel="self"/>
 	<link href="{{ meta.url }}"/>
-	<updated>{{ collections.pages | rssLastUpdatedDate }}</updated>
+	<updated>{{ collections.pages | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
 	<id>{{ meta.url }}</id>
 	<author>
 		<name>{{ meta.authorName }}</name>
@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
 	<entry>
 		<title>{{ page.data.title  }}</title>
 		<link href="{{ absolutePostUrl }}"/>
-		<updated>{{ page.date | rssDate }}</updated>
+		<updated>{{ page.date | dateToRfc3339 }}</updated>
 		<id>{{ absolutePostUrl }}</id>
 		<content type="html">{{ page.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
 	</entry>
